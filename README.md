@@ -1,2 +1,2 @@
-# Steward-Spanish-Public-Lectures.github.io
+# AstroCharlas.github.io
 Web page
