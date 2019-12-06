@@ -11,6 +11,9 @@ gallerypath = 'images/gallery/'
 # HTML file
 htmlsection = '<!-- Gallery -->\n'
 
+# Remove pesky mac files
+if os.path.exists(gallerypath + '.DS_Store'): os.remove(gallerypath + '.DS_Store')
+
 # Iterate over images in gallery that are not final products
 for i,impath in enumerate([x for x in os.listdir(gallerypath) if (not 'Gallery' in x)]):
 
