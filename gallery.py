@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
 
+'''
+This script takes all images in the images/gallery/ folder and 
+puts them into them into the press.html code nicely formatted.
+It ignores all files that contain "Gallery" as this name is
+reserved for the final cropped images. Works with most filetypes,
+but it will let you know when there is a file that doesn't work.
+'''
+
 # Packages
 import os
 import sys
