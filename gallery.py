@@ -45,7 +45,7 @@ for i,impath in enumerate([x for x in os.listdir(gallerypath) if (not 'Gallery' 
     img.save(imname,format='JPEG')
 
     # HTML addition
-    htmlsection += '\t'*11 + '<div class="col-4"><span class="image fit"><a href="' + imname + '" target=_blank><img src="' + imname + '" alt="" /></a></span></div>\n'
+    htmlsection += '\t'*11 + '<div class="col-4"><span class="image fit"><a href="' + imname + '" target="_blank"><img src="' + imname + '" alt="" /></a></span></div>\n'
 
 # Open and edit press html
 file = open('press.html','r+')
