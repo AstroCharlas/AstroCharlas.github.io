@@ -1,2 +1,1 @@
-- Link photos of the previous events on the schedule table
-
+-Link photos of the previous events on the schedule table
